@@ -1,0 +1,15 @@
+.main-header {
+  background-color: #000;
+
+  .options {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 70px;
+    align-items: center;
+
+    .option {
+      margin: 0 40px;
+      color: #fff;
+    }
+  }
+}
