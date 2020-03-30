@@ -1,0 +1,22 @@
+.about {
+  text-align: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+  .about-container {
+    width: 80%;
+    margin: 5%;
+
+    .header {
+      font-size: 48px;
+      font-weight: 350;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 50px;
+      letter-spacing: 1.2px;
+    }
+  }
+}
