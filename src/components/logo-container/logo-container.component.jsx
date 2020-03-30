@@ -3,7 +3,7 @@ import Logo from "./Golden-mercedes.png";
 
 import "./logo-container.styles.scss";
 
-const LogoContainer = () => (
+export const LogoContainer = () => (
   <div className="logo-container">
     <div className="context-container">
       <span>GOLD PARTS</span>
@@ -13,5 +13,3 @@ const LogoContainer = () => (
     <img className="logo" src={Logo} alt="golden-mercedes" />
   </div>
 );
-
-export default LogoContainer;

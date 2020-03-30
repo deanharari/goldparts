@@ -2,7 +2,7 @@ import React from "react";
 
 import "./about.styles.scss";
 
-const About = () => (
+export const About = () => (
   <div className="about">
     <div className="about-container">
       <span className="header">אודות</span>
@@ -15,5 +15,3 @@ const About = () => (
     </div>
   </div>
 );
-
-export default About;

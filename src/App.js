@@ -1,9 +1,10 @@
 import React from "react";
 
-import NavBar from "./components/navbar/navbar.component";
-import HomePage from "./pages/homepage/homepage.component";
-import About from "./pages/about/about.component";
-import ContactPage from "./pages/contact-page/contact-page.component";
+import { NavBar } from "./components/navbar/navbar.component";
+import { HomePage } from "./pages/homepage/homepage.component";
+import { About } from "./pages/about/about.component";
+import { ContactPage } from "./pages/contact-page/contact-page.component";
+import { Location } from "./pages/location/location.component";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ function App() {
       <HomePage />
       <About />
       <ContactPage />
+      <Location />
     </div>
   );
 }

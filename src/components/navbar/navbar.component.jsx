@@ -1,9 +1,9 @@
 import React from "react";
 
 import "./navbar.component.scss";
-import LogoContainer from "../logo-container/logo-container.component";
+import { LogoContainer } from "../logo-container/logo-container.component";
 
-const NavBar = () => (
+export const NavBar = () => (
   <div className="main-header">
     <div className="options">
       <LogoContainer />
@@ -14,5 +14,3 @@ const NavBar = () => (
     </div>
   </div>
 );
-
-export default NavBar;

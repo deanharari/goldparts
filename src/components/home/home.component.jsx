@@ -4,12 +4,14 @@ import Background from "./bg.jpg";
 
 import "./home.styles.scss";
 
-const Home = () => (
+export const Home = () => (
   <div className="bg">
     <img className="background" src={Background} alt="background" />
     <div className="home-container">
-      <span className="main-home">GOLD PARTS</span>
-      <span className="sub-home">ייבוא ושיווק חלקי חילוף למשאיות ומסחריות</span>
+      <span className="main-header-home">GOLD PARTS</span>
+      <span className="sub-header-home">
+        ייבוא ושיווק חלקי חילוף למשאיות ומסחריות
+      </span>
       <a
         target="_blank"
         rel="noopener noreferrer"
@@ -21,5 +23,3 @@ const Home = () => (
     </div>
   </div>
 );
-
-export default Home;
