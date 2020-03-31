@@ -1,6 +1,6 @@
 import React from "react";
 
-import Packing from "./packing.JPG";
+import Packing from "../../assets/images/packing.JPG";
 
 import "./contact.styles.scss";
 

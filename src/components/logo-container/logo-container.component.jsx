@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Golden-mercedes.png";
+import Logo from "../../assets/images/Golden-mercedes.png";
 
 import "./logo-container.styles.scss";
 

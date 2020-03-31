@@ -1,6 +1,6 @@
 import React from "react";
 
-import Background from "./bg.jpg";
+import Background from "../../assets/images/bg.jpg";
 
 import "./home.styles.scss";
 

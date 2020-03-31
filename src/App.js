@@ -5,6 +5,7 @@ import { HomePage } from "./pages/homepage/homepage.component";
 import { About } from "./pages/about/about.component";
 import { ContactPage } from "./pages/contact-page/contact-page.component";
 import { Location } from "./pages/location/location.component";
+import { Brands } from "./pages/brands/brands.component";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <ContactPage />
       <Location />
+      <Brands />
     </div>
   );
 }
