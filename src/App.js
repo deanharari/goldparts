@@ -6,6 +6,7 @@ import { About } from "./pages/about/about.component";
 import { ContactPage } from "./pages/contact-page/contact-page.component";
 import { Location } from "./pages/location/location.component";
 import { Brands } from "./pages/brands/brands.component";
+import { Footer } from "./pages/footer/footer.component";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
       <ContactPage />
       <Location />
       <Brands />
+      <Footer />
     </div>
   );
 }

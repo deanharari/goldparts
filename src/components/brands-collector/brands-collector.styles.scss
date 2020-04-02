@@ -1,8 +1,23 @@
 .brands-collector {
-  width: 100%;
+  text-align: center;
   height: 400px;
 
-  img {
-    max-height: 50px;
+  .brands-collector-container {
+    color: #fff;
+    padding: 5% 0;
+
+    .slider {
+      width: 150px;
+      height: 150px;
+      padding-left: 15px;
+      filter: grayscale(100%);
+      opacity: 0.5;
+      transition: 300ms ease-out;
+      margin: 50px;
+    }
+    .slider:hover {
+      filter: grayscale(0%);
+      opacity: 1;
+    }
   }
 }

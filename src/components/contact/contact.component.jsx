@@ -11,10 +11,10 @@ export const Contact = () => (
     </div>
     <div className="form-container">
       <div className="form">
-        <span className="header-contact">צור קשר</span>
-        <span className="sub-header-contact">ת.ד 723</span>
-        <span className="sub-header-contact">ישראל</span>
-        <a className="mail sub-header-contact" href="mailto: din6@bezeqint.net">
+        <span className="header">צור קשר</span>
+        <span className="sub-header">ת.ד 723</span>
+        <span className="sub-header">ישראל</span>
+        <a className="mail sub-header" href="mailto: din6@bezeqint.net">
           din6@bezeqint.net
         </a>
       </div>
